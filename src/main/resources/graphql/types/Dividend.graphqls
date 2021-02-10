@@ -1,0 +1,8 @@
+input Dividend {
+    name: String,
+    type : String,
+    percentage: String,
+    announcement:String,
+    record:String,
+    exDividend: String
+}

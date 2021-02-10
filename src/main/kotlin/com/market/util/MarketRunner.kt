@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component
 class MarketRunner(@Autowired private val repo: UserRepository): CommandLineRunner {
     override fun run(vararg args: String?) {
        for (i in 1..3) {
-           repo.save(User("Name:$i",
-                       "email: $i",
+           repo.save(User("Name$i",
+                       "email$i",
                         i,
            "password$i"));
        }

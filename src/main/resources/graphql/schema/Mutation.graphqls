@@ -8,4 +8,8 @@ type Mutation {
 #    User details
     saveUser(name: String, email: String): User
     updateUser(id: Int, name: String, email: String, password: String): User
+
+    emailDividend(email: String, dividends: [Dividend]): String
+
 }
+
