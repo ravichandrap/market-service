@@ -1,0 +1,11 @@
+type Mutation {
+    saveBonus(name: String,
+        ratio: String,
+        announcement: String,
+        record: String,
+        exBonus: String): Bonus
+
+#    User details
+    saveUser(name: String, email: String): User
+    updateUser(id: Int, name: String, email: String, password: String): User
+}

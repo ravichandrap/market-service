@@ -1,0 +1,7 @@
+type Bonus {
+    name: String,
+    ratio: String,
+    announcement: String,
+    record: String,
+    exBonus: String
+}
